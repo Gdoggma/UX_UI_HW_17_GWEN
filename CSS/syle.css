@@ -2,12 +2,12 @@
     display: inline-block;
     vertical-align: top;
 }
-.logo {
+div .logo {
     width:23%;
     padding:1%;
-    text-align: center;
 }
-.nav{
+
+nav{
     width: 73%;
     padding: 1%;
 }
@@ -15,31 +15,42 @@ ul{
     width: 50%; 
     margin-left: auto;
 }
-heroImg {
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+.logo{
+    text-align: center;
+}
+.heroImg {
     height:600px;
     padding: 25px;}
 .content {
         width: 500px;
         margin: 0 auto;
 }   
-#footer {
+footer {
     background-color: #373738;
     padding:25px;
 }
-
+footer ul li{
+    padding: 20px 20px 20px 20px;
+}
 body {
     background-image: url("Hero Image 1.png");
     background-color: #cccccc;
 }
 
 h1 {
-    font-family: Arial, Arial, Helvetica, sans-serif;
-    font-weight: bold;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color:  #4a0e3a;  
 }
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 100%; 
-    margin-left: auto;
+p{
+    font-size: 16px;
+    font: San-Serif;bold; 
+    color: #4a0e3a;
 }
+
 
